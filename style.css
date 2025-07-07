@@ -1,0 +1,122 @@
+
+.open-sans-normal{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.header{
+    background: url(../images/developer.png), url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 200px 0 200px;
+    padding: 0 20px;
+}
+
+.nav-logo{
+    font-size: 45px;
+}
+
+.nav-list{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-list a{
+    font-size: 18px;
+}
+
+.span{
+    color: orangered;
+}
+
+nav ul li{
+    list-style: none;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav li a{
+    margin-right: 35px;
+    text-decoration: none;
+    color: rgb(51, 48, 48);
+    font-size: 15px;
+    text-align: center;
+}
+
+.btn{
+    background-color: orangered;
+    padding: 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+.btn a{
+    color: white;
+    font-weight: bold;
+    margin: 20px;
+    padding: 10px;
+}
+
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 200px 0 200px;
+}
+
+.banner-content{
+    width: 585px;
+    padding-left: 20px;
+}
+
+h3{
+    font-size: 40px;
+}
+
+h4{
+    margin-top: -40px;
+    font-size: 60px;
+}
+
+p{
+    margin-top: -70px;
+    padding-bottom: 10px;
+    text-align: justify;
+}
+
+.btn1{
+    background-color: orangered;
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    margin-right: 15px;
+}
+
+.btn2{
+    background-color: orangered;
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+}
+.a1{
+    color: white;
+    text-decoration: none;
+    font-size: 1.3em;
+}
+.a2{
+    color: white;
+    text-decoration: none;
+    font-size: 1.3em;
+}
